@@ -74,5 +74,8 @@ users["Erik"][:home_town] = "Edinburgh"
 # 9. Add a pet dog to Erik called "Fluffy"
 users["Erik"][:pets][0].store("name", "fluffy")
 users["Erik"][:pets][0].store("species", "dog")
-p users["Erik"][:pets]
 # 10. Add another person to the users hash
+users["Michael"] = {
+  home_town: "Glasgow"
+}
+p users
